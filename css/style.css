@@ -2,8 +2,10 @@
     --color-primary: #39FF14;
     --color-secondary: #30384D;
     --color-secondary-light: #454C5F;
-    --color-secondary-dark: #272727;
-    --color-secondary-darker: #454C5F;
+    --color-secondary-dark: #454C5F;
+    --color-secondary-darker: #272727;
+    --color-secondary-black: #101010;
+
 
     --color-white: #FFFFFF;
     --color-gray-1: #D9D9D9;
@@ -36,7 +38,33 @@
 }
 
 body {
+    background-color: var(--color-secondary-black);
     text-align: right;
     direction: rtl;
 }
 
+/*استایل هدر*/
+
+.header {
+
+}
+.header__nav {
+    background-color: var(--color-secondary-darker);
+    display: flex;
+    justify-content: flex-end;
+}
+.header__nav-signup-button {
+
+}
+.header__nav-signin-button {
+
+}
+.header__main-slide {
+
+}
+.header__info {
+
+}
+.header__info-box {
+
+}
