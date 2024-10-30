@@ -1,0 +1,42 @@
+:root {
+    --color-primary: #39FF14;
+    --color-secondary: #30384D;
+    --color-secondary-light: #454C5F;
+    --color-secondary-dark: #272727;
+    --color-secondary-darker: #454C5F;
+
+    --color-white: #FFFFFF;
+    --color-gray-1: #D9D9D9;
+    --color-gray-2: #757575;
+    --color-gray-3: #282828;
+
+    --color-gift-special: #C61DB5;
+    --color-gift-gold: #FFC300;
+    --color-gift-silver: #D9D9D9;
+    --color-gift-bronze: #C37417;
+
+    --font-size-48: 3rem;           /* 48px */
+    --font-size-36: 2.25rem;        /* 36px */
+    --font-size-24: 1.5rem;         /* 24px */
+    --font-size-20: 1.25rem;        /* 20px */
+    --font-size-18: 1.125rem;       /* 18px */
+    --font-size-16: 1rem;           /* 16px */
+    --font-size-14: 0.875rem;       /* 14px */
+
+    --font-weight-bold: 700;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+    --font-weight-light: 300;
+
+    --spacing-navbar-slogan: 5rem;          /* 80px */
+    --spacing-between-sections: 5rem;       /* 80px */
+    --spacing-title-subtitle: 1.25rem;      /* 20px */
+    --spacing-title-body: 1.875rem;         /* 30px */
+    --spacing-subtitle-body: 0.625rem;      /* 10px */
+}
+
+body {
+    text-align: right;
+    direction: rtl;
+}
+
