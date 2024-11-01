@@ -7,30 +7,69 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/gride.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
 
     <title>دزد با مزد</title>
 </head>
 <body>
 <header class="container header">
-    <nav class="header__nav">
-            <button class="header__nav-signup-button">ثبت‌نام</button>
-            <button class="header__nav-signin-button">ورود</button>
+    <nav class="header__nav full-bleed">
+            <button class="header__nav-signup-button btn-inactive">ثبت‌نام</button>
+            <button class="header__nav-signin-button btn-active">ورود</button>
     </nav>
-    <div class="header__main-slide">
-<!--        محتوای اسلاید اصلی-->
-        کلاه سفیدت رو سرت بذار
-        با شناسایی آسیب پذیری ها، بر اساس شدت آسیب پذیری کشف‌شده، پاداش دریافت کنید. گزارش‌های خود را ارسال کنید، با تیم ما همکاری کنید و نقش مهمی در ایجاد یک محیط دیجیتال امن‌تر برای همه ایفا کنید.
-        انتخاب قلمرو
-        ارسال آسیب پذیری
+    <div class="header__main-slide radialGradient">
+    <div class="header__main-slide-header-box">
+        <h1 class="header__main-slide-title">کلاه سفیدت رو سرت بذار</h1>
+        <p class="header__main-slide-text"> با شناسایی آسیب پذیری ها، بر اساس شدت آسیب پذیری کشف‌شده، <span class="span-color">پاداش</span> دریافت کنید. گزارش‌های خود را ارسال کنید، با تیم ما همکاری کنید و نقش مهمی در ایجاد یک محیط دیجیتال امن‌تر برای همه ایفا کنید.</p>
+        <button class="header__main-slide-btn-chose">انتخاب قلمرو <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg> </button>
+
+        <button class="header__main-slide-btn-send btn-active">ارسال آسیب پذیری</button>
+    </div>
+        <div class="header__main-slide-header-img-box">
+            <img class="header__main-slide-header-img" src="/assets/img/slider-img.png" alt="">
+        </div>
+
     </div>
     <div class="header__info">
-        <div class="header__info-box">توضیح ۱</div>
-        <div class="header__info-box">توضیح ۲</div>
-        <div class="header__info-box">توضیح ۳</div>
+        <div class="header__info-boxs">
+            <div class="header__info-box"><img src="/assets/img/gift.svg" alt="">توضیح تا ۳۰۰ میلیون تومان جایزه‌</div>
+            <div class="header__info-box"><img src="/assets/img/card.svg" alt="">جذب در تیم امنیت ابری آرمان</div>
+            <div class="header__info-box"><img src="/assets/img/cup.svg" alt="">جوایز ماهانه‌ی لیدربرد</div>
+        </div>
+
     </div>
 </header>
-<main></main>
+<main class="container">
+<div class="steps  full-bleed-section">
+    <h2 class="steps__title">مراحل شرکت در مسابقه</h2>
+    <p class="steps__description">دوستانی که تمامی مراحل پذیرش رو در کلاس ما باشند در لوتری پیوستن به تیم امنیتی قرار می‌گیرند.</p>
+
+    <div class="steps__item">
+        <div class="steps__icon steps__icon--select">🗺️</div>
+        <h3 class="steps__item-title">انتخاب قلمه</h3>
+        <p class="steps__item-description">با مشاهدۀ قلمه‌های تعیین شده می‌توانیم با تمرکز به پردازش پای از دریافت جایزه مطمئن باشیم.</p>
+    </div>
+
+    <div class="steps__item">
+        <div class="steps__icon steps__icon--identify">🔍</div>
+        <h3 class="steps__item-title">شناسایی آسیب پذیر</h3>
+        <p class="steps__item-description">با مشاهدۀ قلمه‌های تعیین شده می‌توانیم با تمرکز به پردازش پای از دریافت جایزه مطمئن باشیم.</p>
+    </div>
+
+    <div class="steps__item">
+        <div class="steps__icon steps__icon--register">📝</div>
+        <h3 class="steps__item-title">ثبت آسیب پذیری</h3>
+        <p class="steps__item-description">با مشاهدۀ قلمه‌های تعیین شده می‌توانیم با تمرکز به پردازش پای از دریافت جایزه مطمئن باشیم.</p>
+    </div>
+
+    <div class="steps__item">
+        <div class="steps__icon steps__icon--reward">🏆</div>
+        <h3 class="steps__item-title">رفع آسیب پذیری و دریافت جایزه</h3>
+        <p class="steps__item-description">با مشاهدۀ قلمه‌های تعیین شده می‌توانیم با تمرکز به پردازش پای از دریافت جایزه مطمئن باشیم.</p>
+    </div>
+</div>
+</main>
 <aside></aside>
 <footer></footer>
 </body>

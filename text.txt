@@ -1,0 +1,33 @@
+.header__info {
+    position: relative;
+    background-color: var(--color-secondary-section);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: var(--spacing-between-sections);
+}
+
+.header__info-boxs {
+    position: absolute;
+    top: 50%; /* موقعیت عمودی */
+    left: 50%; /* موقعیت افقی */
+    transform: translate(-50%, -50%); /* برای تراز کردن باکس به مرکز */
+    display: flex;
+    gap: 1rem; /* فاصله بین باکس‌ها */
+    flex-direction: row; /* برای نمایش افقی باکس‌ها */
+    z-index: 2;
+}
+
+.header__info-box {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem; /* فاصله بین آیکون و متن داخل هر باکس */
+    align-items: center; /* تراز کردن محتوای داخل باکس‌ها به صورت عمودی */
+    width: 23.75rem;
+    height: 7.5rem;
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    border-radius: var(--border-radius);
+    justify-content: center;
+}

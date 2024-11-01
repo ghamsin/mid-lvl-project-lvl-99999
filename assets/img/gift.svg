@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="12.7mm" height="12.7mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 48.48 48.48"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#39FF14;stroke-width:1.01;stroke-miterlimit:22.9256;stroke-opacity:0.600000}
+    .str0 {stroke:white;stroke-width:1.01;stroke-miterlimit:22.9256}
+    .fil1 {fill:none}
+    .fil3 {fill:#39FF14;fill-rule:nonzero}
+    .fil0 {fill:#434A5A;fill-rule:nonzero}
+    .fil2 {fill:white;fill-rule:nonzero}
+    .fil4 {fill:#39FF14;fill-rule:nonzero;fill-opacity:0.600000}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle id="Ellipse_x0020_19" class="fil0" cx="24.24" cy="24.24" r="24.24"/>
+  <g id="_1938635035120">
+   <g id="vuesax_x002f_bulk_x002f_gift">
+    <g id="vuesax_x002f_bulk_x002f_gift_2">
+     <g id="gift">
+      <path id="Vector" class="fil1 str0" d="M35.86 20.96l0 12.29c0,2.38 -0.38,3.8 -1.19,4.65 -0.8,0.84 -2.13,1.24 -4.37,1.24l-12.12 0c-2.24,0 -3.57,-0.4 -4.37,-1.24 -0.81,-0.85 -1.19,-2.27 -1.19,-4.65l0 -12.29 23.23 0z"/>
+      <path id="Vector_2" class="fil2" d="M38.64 16.92l0 1.52c0,1.67 -0.8,3.03 -3.03,3.03l-22.73 0c-2.32,0 -3.03,-1.36 -3.03,-3.03l0 -1.52c0,-1.67 0.71,-3.03 3.03,-3.03l22.73 0c2.23,0 3.03,1.36 3.03,3.03z"/>
+      <path id="Vector_3" class="fil3" d="M23.7 13.89l-8.36 0c-0.52,-0.56 -0.5,-1.42 0.05,-1.97l2.15 -2.15c0.56,-0.56 1.49,-0.56 2.05,0l4.12 4.12z"/>
+      <path id="Vector_4" class="fil3" d="M33.14 13.89l-8.36 0 4.12 -4.12c0.56,-0.56 1.48,-0.56 2.05,0l2.15 2.15c0.55,0.55 0.56,1.41 0.05,1.97z"/>
+      <path id="Vector_5" class="fil4 str1" d="M20.11 29.25l0 -7.28 8.13 0 0 7.27c0,0.81 -0.9,1.28 -1.56,0.84 -0,0 -0,-0 -0,-0l-1.35 -0.91 0 0 -0 -0c-0.67,-0.45 -1.54,-0.44 -2.22,-0l0 0 -0 0 -1.42 0.94c-0.69,0.44 -1.57,-0.05 -1.57,-0.85z"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
