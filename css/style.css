@@ -42,7 +42,6 @@
 }
 
 body {
-
     background-color: var(--color-secondary-black);
     text-align: right;
     direction: rtl;
@@ -51,11 +50,7 @@ body {
     font-weight: 400;
 }
 
-/*header style*/
 
-.header {
-
-}
 /*bleed-out*/
 .full-bleed {
     box-shadow: 0 0 0 100vmax var(--color-secondary-darker);
@@ -65,8 +60,15 @@ body {
     box-shadow: 0 0 0 100vmax var(--color-secondary-section);
     clip-path: inset(0 -100vmax);
 }
+.full-bleed-betweensection {
+    box-shadow: 0 0 0 100vmax var(--color-secondary-dark);
+    clip-path: inset(0 -100vmax);
+}
+/*header*/
 
+.header {
 
+}
 .header__nav {
     background-color: var(--color-secondary-darker);
     height: 5rem;
@@ -173,6 +175,8 @@ body {
     align-items: center;
     padding: .7rem;
 }
+
+
 /*steps*/
 .steps {
     padding-top: 10rem;
@@ -236,6 +240,72 @@ body {
     margin-top: var(--spacing-title-body);
     padding: 0 20rem;
 }
+/*prize-calculation*/
+.prize-calculation {
+    margin: 10rem auto;
+    background-color: var(--color-secondary-section);
+}
+.prize-calculation__title {
+    width: 50%;
+    font-size: var(--font-size-36);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-white);
+}
+.prize-calculation__description {
+    width: 34%;
+    margin-top: var(--spacing-title-body);
+    font-size: var(--font-size-14);
+    color: var(--color-white);
+    text-align: justify;
+    font-weight: 300;
+    margin-left: 3.5rem;
+    margin-bottom: var(--spacing-title-body);
+
+}
+.prize-calculation__lists {
+    position: relative;
+    background-color: var(--color-secondary-section);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.prize-calculation__list {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    z-index: +1;
+}
+.prize-calculation__item {
+    width: 25.7rem;
+    height: 7.5rem;
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-24);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7rem;
+}
+.prize-calculation__item--vital {}
+.prize-calculation__item {}
+.prize-calculation__item--critical {}
+.prize-calculation__item {}
+.prize-calculation__item--high {}
+.prize-calculation__amount {}
+.prize-calculation__label {}
+.prize-calculation__item {}
+.prize-calculation__item--medium {}
+.prize-calculation__amount {}
+.prize-calculation__label {}
+.prize-calculation__item {}
+.prize-calculation__item--low {}
+.prize-calculation__amount {}
+.prize-calculation__label {}
 /*component*/
 .btn-active {
     background-color: var(--color-primary);
@@ -254,8 +324,6 @@ body {
 }
 .span-color {
     color: var(--color-primary);
-}
-.header__info-box {
 }
 .radialGradient {
     background: radial-gradient(circle at 50% -50%, rgba(48, 48, 48, 48) 0%, rgba(0, 0, 0, 0) 60%);
