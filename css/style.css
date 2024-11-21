@@ -231,6 +231,7 @@ body {
 }
 /*promotion*/
 .promotion {
+
     padding-top: var(--spacing-between-sections);
     color: var(--color-white);
     text-align: center;
@@ -238,15 +239,21 @@ body {
 }
 .promotion__box-description {
     margin-top: var(--spacing-title-body);
-    padding: 0 20rem;
+    margin: 0 20rem;
 }
+
+
 /*prize-calculation*/
+
 .prize-calculation {
-    margin: 10rem auto;
+    position: absolute;
+    margin: 13rem auto;
+    height: 16rem;
     background-color: var(--color-secondary-section);
 }
 .prize-calculation__title {
     width: 50%;
+    margin-top: 4rem;
     font-size: var(--font-size-36);
     font-weight: var(--font-weight-medium);
     color: var(--color-white);
@@ -263,49 +270,51 @@ body {
 
 }
 .prize-calculation__lists {
-    position: relative;
+
     background-color: var(--color-secondary-section);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    gap: 1rem;
+    /*left: 0;*/
+    /*right: 0;*/
+}
+.prize-calculation__wrapper {
+    position: relative;
 
 }
 .prize-calculation__list {
-    position: absolute;
+    position:absolute;
+    left: 0;
+    top: 5.1rem;
     display: flex;
-    flex-direction: row;
+    gap: 1.75rem;
+    flex-direction: column;
     justify-content: space-between;
-    width: 100%;
-    z-index: +1;
 }
 .prize-calculation__item {
-    width: 25.7rem;
-    height: 7.5rem;
+    height: 5rem;
+    width: 36.25rem;
     color: var(--color-white);
     background-color: var(--color-secondary);
     border-radius: var(--border-radius);
-    font-size: var(--font-size-24);
+    font-size: var(--font-size-16);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: .7rem;
+    padding: 1rem 5rem 1rem 1rem ;
 }
-.prize-calculation__item--vital {}
-.prize-calculation__item {}
-.prize-calculation__item--critical {}
-.prize-calculation__item {}
-.prize-calculation__item--high {}
-.prize-calculation__amount {}
-.prize-calculation__label {}
-.prize-calculation__item {}
-.prize-calculation__item--medium {}
-.prize-calculation__amount {}
-.prize-calculation__label {}
-.prize-calculation__item {}
-.prize-calculation__item--low {}
-.prize-calculation__amount {}
-.prize-calculation__label {}
+.prize-calculation__item-img {
+    right: 1rem;
+    position: absolute;
+}
+.prize-calculation__amount {
+
+}
+.prize-calculation__label {
+
+}
 /*component*/
 .btn-active {
     background-color: var(--color-primary);
