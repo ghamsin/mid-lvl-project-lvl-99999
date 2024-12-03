@@ -232,14 +232,19 @@ body {
 /*promotion*/
 .promotion {
 
-    padding-top: var(--spacing-between-sections);
     color: var(--color-white);
     text-align: center;
     background-color: var(--color-secondary-light);
 }
+.promotion__box {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .promotion__box-description {
-    margin-top: var(--spacing-title-body);
-    margin: 0 20rem;
+    margin: 1.5rem 20rem 0 20rem;
 }
 
 /*prize-calculation*/
@@ -321,12 +326,10 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--color-secondary-section);
+    padding-bottom: 20px;
+
 }
-.leaderboard__wrapper {
-    display: flex;
-    gap: 2.5rem;
-    margin-top: 2.625rem;
-}
+
 .leaderboard__title {
     padding-top: 4.12rem;
     text-align: center;
@@ -342,25 +345,9 @@ body {
     text-align: center;
 }
 
-/*leaderboard*/
-
-.leaderboard__feature {
-    color: var(--color-white);
-    padding: 2rem 0 1rem 0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: var(--border-radius);
-    background-color: var(--color-secondary);
-    width: 23.875rem;
-    height: 35.125rem;
-}
-
 .leaderboard__feature-img {
     position: absolute;
-    left: 38.5px;
+    left: 39px;
     width: 303px;
     height: 303px;
     padding-top: 36px;
@@ -400,9 +387,28 @@ body {
     justify-content: space-between;
 }
 /*leaderboard list*/
-.leaderboard__data {}
+
+.leaderboard__wrapper {
+    display: flex;
+    gap: 50px;
+    margin-top: 2.625rem;
+    align-items: center;
+    padding-bottom: 135px;
+}
+.leaderboard__feature {
+    color: var(--color-white);
+    padding: 2rem 0 1rem 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--border-radius);
+    background-color: var(--color-secondary);
+    width: 23.875rem;
+    height: 35.125rem;
+}
 .leaderboard__list {
-    height: 62px;
     width: 719px;
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-thin);
@@ -410,6 +416,7 @@ body {
     gap: 1.1rem;
     flex-direction: column;
     justify-content: space-between;
+
 }
 .leaderboard__list-title {
     color: var(--color-white);
@@ -448,7 +455,127 @@ body {
 .leaderboard__name {}
 .leaderboard__prize-total {}
 .leaderboard__vulnerabilities {}
+/* Domains Block */
+.domains__title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
 
+.domains__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.domains__item {
+    background-color: var(--color-secondary);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: transform 0.2s;
+}
+
+.domains__item:hover {
+    transform: translateY(-2px);
+}
+
+/* IP Ranges Block */
+.ip-ranges__title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.ip-ranges__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.ip-ranges__item {
+    background-color: var(--color-secondary);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+/* Vulnerabilities Block */
+.vulnerabilities__title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.vulnerabilities__severity {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.vulnerabilities__level {
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    font-size: 0.9rem;
+}
+
+.vulnerabilities__level--low { background-color: #4caf50; }
+.vulnerabilities__level--medium { background-color: #ff9800; }
+.vulnerabilities__level--high { background-color: #f44336; }
+.vulnerabilities__level--critical { background-color: #9c27b0; }
+.vulnerabilities__level--vital { background-color: #000000; }
+
+.vulnerabilities__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.vulnerabilities__item {
+    background-color: var(--color-secondary);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+/* Footer */
+.scope__footer {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--color-secondary);
+    border-radius: var(--border-radius);
+}
+
+.scope__footer-text {
+    margin: 0;
+}
+
+.scope__footer-link {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+.scope__footer-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
+    .scope__title {
+        font-size: 2rem;
+    }
+
+    .vulnerabilities__severity {
+        flex-wrap: wrap;
+    }
+}
 /*component*/
 .title {
     font-size: var(--font-size-36);
