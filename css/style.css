@@ -733,8 +733,28 @@ body {
     color: var(--color-white);
     text-align: center;
 }
+/*roles*/
+
 .roles {
+    margin-top: 380px;
     position: relative;
+
+}
+.roles__title h2 {
+    font-size: var(--font-size-36);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-white);
+    text-align: center;
+}
+.roles__text {
+    margin-top: 36px;
+    font-size: var(--font-size-14);
+    color: var(--color-gray-1);
+    font-weight: var(--font-weight-light);
+    text-align: center;
+}
+.roles__list {
+    color: var(--color-white);
 }
 /*component*/
 .style {

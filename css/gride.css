@@ -1,5 +1,5 @@
 .container {
     margin: 0 auto;
-    width: 67%; /* یا هر مقدار مناسب */
-    max-width: 98.125rem; /* حداکثر عرض */
+    width: 67%;
+    max-width: 98.125rem;
 }
