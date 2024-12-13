@@ -677,17 +677,17 @@ body {
 .risk-dashboard__row {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 10px;
 }
 .risk-dashboard__item {
     flex: 1 1 auto;
     min-width: 250px;
     background-color: var(--color-secondary);
     padding: 10px 15px;
-    font-weight: var(--font-weight-regular);
+    font-weight: var(--font-weight-medium);
     font-size: var(--font-size-14);
     border-radius: var(--border-radius);
-    color: var(--color-white);
+    color: var(--color-gray-1);
     text-align: center;
 }
 /*forbidden-vulnerabilities*/
@@ -734,7 +734,53 @@ body {
     text-align: center;
 }
 .roles {
+
+    /*margin-top: 354px;*/
+
+}
+.rolesss {
     position: relative;
+}
+.roles__title h2 {
+
+    font-size: var(--font-size-36);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-white);
+    text-align: center;
+}
+.roles__text{
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-light);
+    color: var(--color-gray-1);
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 18%;
+}
+.roles__bg {
+    position: absolute;
+    top: 50px;
+    right: 400px;
+}
+.roles__list {
+    padding: 0 10%;
+    position: relative;
+    color: var(--color-gray-1);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-light);
+    margin-top: 30px;
+    list-style: none;
+}
+
+.roles__list-item {
+    padding: 17px;
+}
+
+.roles__list-item:before {
+    color: var(--color-primary);
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 27px;
 }
 /*component*/
 .style {
@@ -750,7 +796,7 @@ body {
     padding: 30px 33px;
     border-radius: var(--border-radius);
     display: grid;
-    gap: 1rem;
+    gap: 5px;
 }
 .scope-title-btn {
     padding: 16px 136px;
@@ -793,5 +839,12 @@ body {
 }
 .radialGradient {
     background: radial-gradient(circle at 50% -50%, rgba(48, 48, 48, 48) 0%, rgba(0, 0, 0, 0) 60%);
+}
+.radialGradient2 {
+    top: 100px;
+    /*position: absolute;*/
+    height: 364px;
+    background: radial-gradient(circle at 50% -50%, rgba(50, 50, 50, .8) 5%, rgba(0, 0, 0, 0) 55%);
+    z-index: -1;
 }
 
