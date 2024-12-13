@@ -57,6 +57,7 @@ body {
     box-shadow: 0 0 0 100vmax var(--color-secondary-darker);
     clip-path: inset(0 -100vmax);
 }
+
 .full-bleed-section {
     box-shadow: 0 0 0 100vmax var(--color-secondary-section);
     clip-path: inset(0 -100vmax);
@@ -781,6 +782,43 @@ body {
     font-family: FontAwesome;
     display: inline-block;
     width: 27px;
+}
+/*send report*/
+.send-report {
+    padding: 50px  10%;
+    background-color: var(--color-secondary-section);;
+}
+.send-report__title h2 {
+    font-size: var(--font-size-36);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-white);
+}
+.send-report__text {
+    margin-top: 30px;
+    color: var(--color-gray-1);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-light);
+}
+.send-report__list {
+    list-style: none;
+    margin-top: 40px;
+}
+.send-report__item {
+    padding: 10px;
+    color: var(--color-gray-1);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-light);
+}
+.send-report__item:before {
+    color: var(--color-primary);
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 27px;
+}
+/*footer*/
+.footer {
+    background-color: var(--color-secondary-dark);
 }
 /*component*/
 .style {
