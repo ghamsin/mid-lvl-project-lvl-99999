@@ -932,54 +932,63 @@ body {
     body {
         font-size: var(--font-size-14);
     }
-
     .header__nav {
-        flex-direction: column;
-        align-items: flex-end;
+        justify-content: center;
         gap: 1rem;
-        height: auto;
+        margin-bottom: 1rem;
     }
 
     .header__main-slide {
         flex-direction: column;
-        height: auto;
-        padding-top: 2rem;
-    }
-
-    .header__main-slide-header-box {
-        width: 100%;
+        align-items: center;
+        gap: 1rem;
     }
 
     .header__main-slide-title {
-        font-size: var(--font-size-24);
+        font-size: 1.5rem;
         text-align: center;
     }
 
     .header__main-slide-text {
-        font-size: var(--font-size-14);
-        margin: 1rem;
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .header__main-slide-header-box,
+    .header__main-slide-header-img-box {
+        flex: none;
+        width: 100%;
         text-align: center;
     }
 
-    .header__main-slide-btn-chose,
-    .header__main-slide-btn-send {
-        width: 100%;
-        padding: 1rem;
-        font-size: var(--font-size-14);
-    }
-
-    .steps {
-        padding-top: 2rem;
+    .header__info {
+        flex-direction: column;
         gap: 1rem;
     }
 
+    .header__info-boxs {
+        flex-direction: row; /* در دستگاه‌های بزرگ‌تر چینش افقی می‌شود */
+        justify-content: space-around; /* فاصله مساوی بین آیتم‌ها */
+    }
+
+    .header__info-box {
+        width: auto; /* عرض مناسب برای چینش افقی */
+        text-align: center; /* در حالت افقی، متن وسط‌چین می‌شود */
+    }
+
+    .steps {
+        padding: 3rem 2rem;
+    }
+
     .steps__wrapper {
-        flex-direction: column;
+        flex-direction: row; /* چینش افقی برای نمایشگرهای بزرگ‌تر */
+        flex-wrap: wrap; /* عناصر در صورت نیاز شکسته می‌شوند */
         gap: 2rem;
     }
 
-    .steps__item-line {
-        display: none;
+    .steps__item {
+        width: 22%; /* عرض مناسب برای 4 ستون */
     }
 
     .promotion__box-description {
